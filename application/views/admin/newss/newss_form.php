@@ -120,7 +120,7 @@
     <?php } ?>
 
     <?php if(in_array($extension, array('newss', 'video', 'relax'))){
-        $categorys = $this->newss->parent('category-'. $extension);
+        $categorys = $this->newss->parent('categorys-'. $extension);
         ?>
         <div class="form-group">
             <label class="col-sm-2 control-label">Danh mục</label>

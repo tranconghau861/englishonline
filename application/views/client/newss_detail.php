@@ -10,11 +10,9 @@
                         <div class="titles" style="margin-bottom:10px !important">
                             <h4><?php echo $item->title;?></h4>
                         </div>
-
                         <div class="row">
                             <div class="col-xs-12">
                                 <h4><?php echo $item->intro; ?></h4>
-                                <!--
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <div id="myRadio">​</div>
                                     <script type="text/javascript">
@@ -59,11 +57,9 @@
                                             });
                                         }
                                     </script>
-                                                                -->
-
                             </div>
                         </div>
-                            <?php if(!empty($news_content)):?>
+                            <?php if(!empty($newss_content)):?>
                                 <div class="col-xs-12 padding-top">
                                     <h4>Conversation Sentences</h4>
                                     <table class="table table-bordered">
@@ -76,7 +72,7 @@
                                         </thead>
                                         <tbody>
                                         <?php
-                                        foreach($news_content as $value):
+                                        foreach($newss_content as $value):
                                             $content = translate($value->content, $value->content_en);
                                             $vowels = array(".", ",");
                                             $consonants = str_replace($vowels, "", $content);

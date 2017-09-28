@@ -9,7 +9,6 @@
                         <div class="titles" style="margin-bottom:10px !important">
                             <h4><?= t('newss') ?></h4>
                         </div>
-                        <?php var_dump($newss); die;?>
                         <?php if(!empty($newss)):?>
                         <div class="row fontawesome-icon-list" style="padding-bottom:10px !important">
                             <?php $i = 1; foreach($newss as $value):?>

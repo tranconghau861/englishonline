@@ -69,7 +69,7 @@ class Newss_model extends MY_Model {
             'alias'             => isset($post['alias']) ? $post['alias'] : '',
             'intro'             => isset($post['intro']) ? $post['intro'] : '',
             'content'           => isset($post['content']) ? $post['content'] : '',
-//            'photo'             => isset($post['photo']) ? $post['photo'] : '',
+            'photo'             => isset($post['photo']) ? $post['photo'] : '',
             'status'            => isset($post['status']) ? $post['status'] : 0,
             'extension'         => $extension,
             'link'              => isset($post['link']) ? $post['link'] : '',
@@ -120,6 +120,9 @@ class Newss_model extends MY_Model {
         $data = array();
         $this->db->order_by('parent ASC, title ASC');
         $query = $this->db->get_where('news', array('extension' => $extension, 'parent' => $id));
+
+        $a = $this->db->last_query($query);
+//        print_r($a) . "<br>";
         $rows = $query->result();
         if($rows){
             foreach($rows as $row){
@@ -129,13 +132,16 @@ class Newss_model extends MY_Model {
                 $data = array_merge($data, $parent);
             }
         }
+
+//        print_r($data);
         return $data;
+
     }
 
     public function parents($extension = '')
     {
         $this->db->order_by('title ASC');
-        return $this->db->get_where('node', array('extension' => $extension))->result();
+        return $this->db->get_where('news', array('extension' => $extension))->result();
     }
 
     public function news_category($extension = '', $id = 0)
