@@ -55,9 +55,9 @@ $arg1 = isset($segs[0]) ? $segs[0] : '';
                                 <a href="<?= site_url('100-lessons') ?>"
                                    title="<?= t('100-lessons') ?>"><?= t('100-lessons') ?></a>
                             </li>
-                            <li class="current a-uppercase <?php echo ($class == 'news') ? 'sf-menu-active' : ''; ?>">
-                                <a href="<?= site_url('news') ?>"
-                                   title="<?= t('news') ?>"><?= t('news') ?></a>
+                            <li class="current a-uppercase <?php echo ($class == 'newss') ? 'sf-menu-active' : ''; ?>">
+                                <a href="<?= site_url('newss') ?>"
+                                   title="<?= t('newss') ?>"><?= t('newss') ?></a>
                             </li>
                             <li class="current a-uppercase <?php echo ($class == 'noun' && $arg1 == '1000-most-common-phrases') ? 'sf-menu-active' : ''; ?>">
                                 <a href="<?= site_url('1000-most-common-phrases') ?>"

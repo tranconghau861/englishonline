@@ -18,7 +18,7 @@
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <div id="myRadio">​</div>
                                     <script type="text/javascript">
-                                        var files = '<?= site_url('home/security'. token($item->id, $item->files_video) . '&type=lessons') ?>';
+                                        var files = '<?= site_url('home/security'. token($item->id, $item->files_video) . '&type=newss') ?>';
                                         var $param = {
                                             autostart: false,
                                             image: "<?= get_image_link($item->photo)?>",

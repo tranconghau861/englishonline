@@ -15,7 +15,7 @@
                         case 'video':
                         case 'alphabet':
                         case 'lessons':
-                        case 'news':
+                        case 'newss':
                         case 'noun':
                             echo '<li><a href="#">'.t($class).'</a></li>';
                             break;

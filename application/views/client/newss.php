@@ -7,13 +7,14 @@
                 <div class="col-md-8"> 
                     <div class="panel-box">
                         <div class="titles" style="margin-bottom:10px !important">
-                            <h4><?= t('news') ?></h4>
+                            <h4><?= t('newss') ?></h4>
                         </div>
-                        <?php if(!empty($news)):?>
+                        <?php var_dump($newss); die;?>
+                        <?php if(!empty($newss)):?>
                         <div class="row fontawesome-icon-list" style="padding-bottom:10px !important">
-                            <?php $i = 1; foreach($news as $value):?>
+                            <?php $i = 1; foreach($newss as $value):?>
                             <div class="fa-hover col-md-6">
-                                <a href="<?= site_url('news/' . $value->alias) ?>" title="<?=translate($value->title, $value->title_en)?>"><?php echo $i;?>. <?php echo $value->title;?></a>
+                                <a href="<?= site_url('newss/' . $value->alias) ?>" title="<?=translate($value->title, $value->title_en)?>"><?php echo $i;?>. <?php echo $value->title;?></a>
                             </div>
                             <?php $i++; endforeach;?>
                         </div>

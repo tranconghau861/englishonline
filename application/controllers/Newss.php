@@ -8,7 +8,7 @@ class Newss extends CI_Controller
     {
         $view['newss'] = $this->newss->get_posts(array(
             'query'     => 'result',
-            'extension' => 'categorys-newss',
+            'extension' => 'newss',
             'status'    => 1,
         ), 'newss_list');
 
@@ -23,7 +23,7 @@ class Newss extends CI_Controller
     {
         $item = $this->newss->get_posts(array(
             'query'     => 'row',
-            'extension' => 'categorys-newss',
+            'extension' => 'newss',
             'status'    => 1,
             'alias'     => $alias,
         ), 'newss_detail_' . md5($alias));
