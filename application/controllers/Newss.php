@@ -29,15 +29,16 @@ class Newss extends CI_Controller
         ), 'newss_detail_' . md5($alias));
 
 
-//        if (!$item) {
-//            $this->load->view('client/header');
-//            $this->load->view('client/404');
-//            $this->load->view('client/footer');
-//        }else {
+        if (!$item) {
+            $this->load->view('client/header');
+            $this->load->view('client/404');
+            $this->load->view('client/footer');
+        }
+//        else {
 //            // count view
 //            $viewtime = $this->session->userdata('viewtime' . $item->id);
 //            if ($viewtime < time()) {
-//                $this->news->update($item->id, 'sum_view', $item->sum_view + 1);
+//                $this->newss->update($item->id, 'sum_view', $item->sum_view + 1);
 //                $this->session->set_userdata('viewtime' . $item->id, strtotime('+5 minute'));
 //            }
             $view['newss_content'] = $this->newss->get_posts(array(
@@ -45,8 +46,9 @@ class Newss extends CI_Controller
                 'extension' => 'newss',
                 'status'    => 1,
                 'order_by'  => 'ordering ASC',
-                'parent'    => $item->id,
-            ), 'newss_content_' . $item->id);
+                'alias'     => $alias,
+//                'parent'    => $item->id,
+            ), 'newss_content');
 
             $view['item'] = $item;
             $header['metatitle'] = translate($item->title, $item->title_en);
