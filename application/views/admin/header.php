@@ -124,6 +124,14 @@ $params = $admin['params'];
                     </li>
                 <?php } ?>
 
+                    <li><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Category</a>
+                        <ul>
+                                <li><a href="<?=base_url('admin/category/index/')?>"><i class="fa fa-list"></i> Category</a></li>
+
+                                <li><a href="<?=base_url('admin/tags/index/')?>"><i class="fa fa-file-video-o"></i> Tags</a></li>
+                        </ul>
+                    </li>
+
 				<?php if(isset($params['category-noun']) || isset($params['noun']) ){ ?>
                 <li <?=$arg2=='noun' && in_array($arg4, array('category-noun', 'noun')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Noun</a>
                 	<ul>
