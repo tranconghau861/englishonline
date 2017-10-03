@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fff7725-1051-418b-9fb5-b1d2dd2b994c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Document.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/admin/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/ball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/bg-calendar_bot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/bg-calendar_head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/button-cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/content/soccer-ball.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/content/table_message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/eyes2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/apple-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-152x152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-180x180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-36x36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-48x48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-57x57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-60x60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-76x76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-favicon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online-ms-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/learn-english-online.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/ms-icon-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/ms-icon-310x310.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/favicons/ms-icon-70x70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/icon/ico-foo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/icon/ico-foo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/icon/ico-foo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/nount/bai2_i_short.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/observer-icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/play-jwplayer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/big_bunny_fake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/bridge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/leaf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/road.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/sea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/shelter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/_notes/dwsync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/big_bunny_fake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/bridge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/leaf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/road.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/sea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/shelter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/thumbs/tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/slides/tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/thedo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/thevang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/thongtincanhan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/images/ym-icon18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/Untitled-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/Untitleds-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/adds/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/adds/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/adds/sidebar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/adds/truonghai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/avatar/a1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/avatar/a2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/avatar/a3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/avatar/a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/avatar/a5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/avatar/a6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/avatar/a7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/avatar/a8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/none.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/bg-theme/ym-icon18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/blog/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/blog/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/blog/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/blog/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/blog/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/blog/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-logos/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-logos/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-logos/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/clubs-team/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/experts/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/experts/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/experts/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/experts/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/experts/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/experts/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/gallery/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/apple-touch-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/apple-touch-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/ds-icoqc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/jp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/thedo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/icons/thevang.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/accordion-ico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/ajax-loader-white.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/bgfooter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/border-pattern.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/footer-down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/holder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/line_tree1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/line_tree2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/pin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/play-player.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/shp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/soccer-ball.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/table_message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/theme-options -bk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/theme-options-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/theme-options-orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/theme-options-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/theme-options.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/ui.totop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/img-theme/ym-icon18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/learningenglish_bk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/logo2s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/logo_sport.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/players/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/players/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/players/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/players/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/players/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/players/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/players/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/section-titles/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/section-titles/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/section-titles/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/section-titles/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/section-titles/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/section-titles/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/section-titles/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/camera-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/camera_skins.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/patterns/overlay9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/slides/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/slides/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/slide/slides/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/sponsors/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/sponsors/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/sponsors/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/sponsors/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/sponsors/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/sponsors/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/testimonials/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/testimonials/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/testimonials/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/testimonials/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/client/img/testimonials/Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/beelden.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/bekle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/five.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/glow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/roundster.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/seven.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/six.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/stormtrooper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/vapor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/jwplayer/skins/vapor_bk.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/angry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/bigsurprise.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/cheese.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/confused.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/downer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/embarrassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/exclaim.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/grin.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/grrr.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/gulp.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/hmm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/lol.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/longface.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/mad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/ohh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/ohoh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/question.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/rasberry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/rolleyes.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/shade_cheese.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/shade_grin.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/shade_hmm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/shade_mad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/shade_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/shade_smirk.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/shock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/shuteye.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/sick.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/smirk.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/snake.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/surprise.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/tongue_laugh.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/tongue_rolleye.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/tongue_wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/vampire.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/smileys/zip.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/hocthuan_htav_v1.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/error_log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/google9fe165542ebc7f73.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/info.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/20160226-2-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/BAC_5474.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/bt4-7150-1456578052.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/demtien2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/huynhle3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/lotdua2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/nhutlam2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/shu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/thanhvo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/tructhanh2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/ttxvn_Thuong_vu_quoc_hoi_2402.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/tuonglocTB1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/28/viem-mang-nao-do-nao-mo-cau-co-the-tu-vong-trong-24-gio11429067704.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/29/HINH_TRUYEN_HINH_NHAN_DAO_1_C540x300.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/29/nkh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/29/thnd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/02/29/thnd1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/03/img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/03/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/03/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/03/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/09/472493-thethaotv-hd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/10/img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/10/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/18/472493-thethaotv-hd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/18/472493-thethaotv-hd1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/03/18/472493-thethaotv-hd2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/11/05/1366519520_meo_vui_luyen_phat_am_tieng_anh_cho_be.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/2016/11/10/5_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/file/01.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/file/livetv_schedule_30_01_2016.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/icon_channel_vtv2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/icon_channel_vtv3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/icon_channel_vtv6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/learn-english.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/no-image.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Newss.php" afterPath="$PROJECT_DIR$/application/controllers/Newss.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/client/newss_detail.php" afterPath="$PROJECT_DIR$/application/views/client/newss_detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/client/css/bootstrap/bootstrap.css" afterPath="$PROJECT_DIR$/assets/client/css/bootstrap/bootstrap.css" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Newss_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/Newss_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="135" column="25" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <folding>
+                <marker date="1506605143329" expanded="true" signature="6766:6799" ph="SELECT * FRO... ##__news" />
+                <marker date="1506605143329" expanded="true" signature="6839:6884" ph="UPDATE tmp S... " />
+                <marker date="1506605143329" expanded="true" signature="6924:6977" ph="INSERT INTO ##__news... " />
+                <marker date="1506605143329" expanded="true" signature="6944:6977" ph="SELECT tmp.*... tmp" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newss_detail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/client/newss_detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/client/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2398">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1505378800473" expanded="true" signature="7200:7312" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Newss.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Newss.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>function parent</find>
+      <find>da</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/views/client/header_menu.php" />
+        <option value="$PROJECT_DIR$/application/views/client/crumbs.php" />
+        <option value="$PROJECT_DIR$/application/views/client/newss.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/newss/newss_form.php" />
+        <option value="$PROJECT_DIR$/application/models/Newss_model.php" />
+        <option value="$PROJECT_DIR$/application/views/client/lessons_detail.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Newss.php" />
+        <option value="$PROJECT_DIR$/application/views/client/video_detail.php" />
+        <option value="$PROJECT_DIR$/application/views/client/video_list.php" />
+        <option value="$PROJECT_DIR$/application/views/client/pronounce.php" />
+        <option value="$PROJECT_DIR$/assets/client/css/bootstrap/bootstrap.css" />
+        <option value="$PROJECT_DIR$/application/views/client/lessons.php" />
+        <option value="$PROJECT_DIR$/application/views/client/newss_detail.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="497" />
+    <option name="y" value="30" />
+    <option name="width" value="579" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="englishonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="englishonline" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fff7725-1051-418b-9fb5-b1d2dd2b994c" name="Default" comment="" />
+      <created>1506588013424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506588013424</updated>
+      <workItem from="1506588015876" duration="1890000" />
+      <workItem from="1506593492984" duration="522000" />
+      <workItem from="1506600720077" duration="4999000" />
+      <workItem from="1506673595232" duration="6186000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13597000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/models/Newss_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506605143329" expanded="true" signature="6766:6799" ph="SELECT * FRO... ##__news" />
+            <marker date="1506605143329" expanded="true" signature="6839:6884" ph="UPDATE tmp S... " />
+            <marker date="1506605143329" expanded="true" signature="6924:6977" ph="INSERT INTO ##__news... " />
+            <marker date="1506605143329" expanded="true" signature="6944:6977" ph="SELECT tmp.*... tmp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/newss_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/newss/newss_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="38" lean-forward="false" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Newss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Newss_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506605143329" expanded="true" signature="6766:6799" ph="SELECT * FRO... ##__news" />
+            <marker date="1506605143329" expanded="true" signature="6839:6884" ph="UPDATE tmp S... " />
+            <marker date="1506605143329" expanded="true" signature="6924:6977" ph="INSERT INTO ##__news... " />
+            <marker date="1506605143329" expanded="true" signature="6944:6977" ph="SELECT tmp.*... tmp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/newss_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Newss_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506605143329" expanded="true" signature="6766:6799" ph="SELECT * FRO... ##__news" />
+            <marker date="1506605143329" expanded="true" signature="6839:6884" ph="UPDATE tmp S... " />
+            <marker date="1506605143329" expanded="true" signature="6924:6977" ph="INSERT INTO ##__news... " />
+            <marker date="1506605143329" expanded="true" signature="6944:6977" ph="SELECT tmp.*... tmp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/newss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Newss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1256">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/crumbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Newss_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="135" column="25" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding>
+            <marker date="1506605143329" expanded="true" signature="6766:6799" ph="SELECT * FRO... ##__news" />
+            <marker date="1506605143329" expanded="true" signature="6839:6884" ph="UPDATE tmp S... " />
+            <marker date="1506605143329" expanded="true" signature="6924:6977" ph="INSERT INTO ##__news... " />
+            <marker date="1506605143329" expanded="true" signature="6944:6977" ph="SELECT tmp.*... tmp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/newss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Lessons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/newss/newss_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="112" column="38" lean-forward="false" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CodeIgniter/application/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CodeIgniter/application/views/newsview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="80" lean-forward="true" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CodeIgniter/application/controllers/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1004">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CodeIgniter/application/controllers/Welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CodeIgniter/application/views/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/live_videoradio_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/video_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/video_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="78" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/system_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/pronounce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="196" lean-forward="false" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="196" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/client/css/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="88" column="68" lean-forward="false" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/header_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/lessons_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/lessons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2398">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505378800473" expanded="true" signature="7200:7312" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Newss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/client/newss_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

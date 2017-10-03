@@ -1,0 +1,185 @@
+/* Backgrounds ----------------------------------------------------------*/
+
+.camera_prevThumbs, .camera_nextThumbs, .camera_prev, .camera_next, .camera_commands, .camera_thumbs_cont,
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span,
+.btn-primary,
+.btn-primary:hover,
+.style-caption h1,
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
+.nav-tabs li a:hover,
+.title-color,
+.tags a:hover,
+.title-aside,
+.pagination .active,
+.info-player h4 a,
+.tooltip-inner,
+.portfolioFilter .current,
+.portfolioFilter a:hover,
+.owl-theme .owl-controls .owl-buttons div,
+#theme-options .layout-style li.active,
+.thumbs li:hover,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.pagination > .active > a,
+.pagination > .active:hover > a{
+	background: #FFB43F; 
+	background-color: #FFB43F; 
+}
+.footer-down{
+	background: #FFB43F url("../../../img/img-theme/footer-down.png") repeat-x left 1px;
+}
+.events-carousel li .header-post .date{
+	background: #FFB43F;  
+	background: rgba(255, 180, 63, 0.6);
+}
+
+/* Colors ----------------------------------------------------------*/
+
+blockquote > a,
+.tweet_time a,
+.tweet_text a,
+.tags i,
+.text-resalt,
+.post-item h4 a:hover,
+.post-item p a,
+.links li i,
+.entry-title a,
+.info-clubs h4 a:hover,
+.sf-menu .sf-mega ul li a:hover,
+.sf-menu li li a:hover,
+.crumbs ul li a:hover,
+.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover,
+.crumbs li a,
+.page-error h1 i,
+.sitemap li a:hover,
+.pagination > li > a, .pagination > li > span,
+address i,
+address a,
+.list li i,
+.events-carousel h4 a,
+.pagination > li:hover a{
+	color: #FFB43F;
+}
+
+/* Borders ----------------------------------------------------------*/
+
+.nav-tabs li.active:after {
+	border: 6px solid #FFB43F;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	bottom: -11px;
+	content: "";
+	left: 50%;
+	margin-left: -6px;
+	position: absolute;
+	z-index: 101;
+}
+.style-caption p,
+.item-clubs{
+	border-right: 5px solid #FFB43F;	
+}
+.titles h4{
+	border-left: 5px solid #FFB43F;
+}
+.pagination > .active > a,
+.pagination > .active:hover > a{
+	border-color: #FFB43F;
+}
+.style-caption h1:before{
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid #FFB43F;
+}
+.crumbs:before{
+	border-bottom: 20px solid #FFB43F;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #FFB43F;
+}
+.sf-menu li:hover > .sf-mega,
+.sf-menu li.sfHover > .sf-mega,
+.mainmenu,
+.sf-menu .sub-current,
+.header-2,
+.header-2 .is-sticky{
+	border-bottom: 0px solid #FFB43F;
+}
+header,
+.overlay-player,
+.crumbs{
+	border-top: 3px solid #FFB43F;
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+  border-top-color: #FFB43F; /* IE8 fallback colour */
+}
+ul.sub-current .current  > .sf-with-ul:focus:after,
+ul.sub-current .current:hover > .sf-with-ul:after,
+ul.sub-current .current .sfHover > .sf-with-ul:after {
+  border-left-color: #FFB43F; /* IE8 fallback colour */
+}
+
+/***by Loi*****/
+.sf-menu > li:hover,
+.sf-menu > li.sfHover {
+	background: #FFB43F none repeat scroll 0% 0%;
+}
+.sf-menu-active{
+	background: #FFB43F none repeat scroll 0% 0%;
+	color:#fff;
+}
+.open-small-chat {
+  height: 38px;
+  width: 38px;
+  display: block;
+  background: #FFB43F;
+  padding: 9px 8px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+}
+.open-small-chat:hover {
+  color: white;
+  background: #FFB43F;
+}
+.color-icon{
+	color: #FFB43F
+}
+.a-link:hover{
+	color: #FFB43F !important;
+	cursor:pointer;
+	text-decoration: none;
+}
+.slimScrollBar{ 
+	background:#FFB43F !important;
+	height:70px !important;
+}
+#theme-options .openclose {
+	cursor: pointer;
+	display: block;
+	height: 301px;
+	position: absolute;
+	top: 20px;
+	right: -39px;
+	width: 40px;
+	background: transparent url("../../../img/img-theme/theme-options-orange.png") no-repeat top left;
+}
+.shop .header-post .date{
+	position: absolute;
+	top: 0;
+	left: 5%;
+	width: 75px;
+	padding: 5px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	z-index: 2;
+	background: #FFB43F none repeat scroll 0% 0%;
+}
+#jointedTeamList thead, #container_tournament .group h3, .button ,.tabmenu {
+	background:#FFB43F !important;
+}

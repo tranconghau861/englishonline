@@ -1,0 +1,302 @@
+.box-phonemic-wrap {
+
+}
+
+.box-phonemic-row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.box-phonemic-row [class*="box-phonemic-col-"] {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box-phonemic-col-1 {
+    width: 11.1111%;
+}
+
+.box-phonemic-col-2 {
+    width: 22.2222%;
+}
+
+.box-phonemic-col-3 {
+    width: 33.3333%;
+}
+
+.box-phonemic-col-4 {
+    width: 44.4444%;
+}
+
+.box-phonemic-col-5 {
+    width: 55.5555%;
+}
+
+.box-phonemic-col-6 {
+    width: 66.6666%;
+}
+
+.box-phonemic-col-7 {
+    width: 77.7777%;
+}
+
+.box-phonemic-col-8 {
+    width: 88.8888%;
+}
+
+.box-phonemic-col-9 {
+    width: 99.9999%;
+}
+
+.box-phonemic-row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box-phonemic-row dt {
+}
+
+.box-phonemic-row dt span {
+    display: block;
+    font-size: 9px;
+    color: #ffffff;
+    padding: 3px 2px 3px 3px;
+    position: relative;
+}
+
+.box-phonemic-row dt span:first-child {
+    background-color: #E1483F;
+    display: block;
+}
+
+.box-phonemic-row dt span:first-child:before {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 18px solid #E1483F;
+    border-left: 10px solid transparent;
+}
+
+.box-phonemic-row dt span:last-child {
+    background-color: #7CD300;
+    display: none;
+    margin-right: 10px;
+}
+
+.box-phonemic-row dt span:last-child:before {
+    position: absolute;
+    top: 0;
+    right: -10px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 10px solid #7CD300;
+    border-bottom: 15px solid transparent;
+}
+
+.box-phonemic-row dt:hover span:first-child {
+    display: none;
+}
+
+.box-phonemic-row dt:hover span:last-child {
+    display: block;
+}
+
+.box-phonemic-list {
+    margin: 0 -5px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.box-phonemic-list > li {
+    float: left;
+}
+
+.box-phonemic-list > li.visible-hidden-li {
+    visibility: hidden;
+}
+
+.box-phonemic-col-1 .box-phonemic-list > li {
+    width: 100%;
+    padding: 0 5px 100%;
+    position: relative;
+}
+
+.box-phonemic-col-2 .box-phonemic-list > li {
+    width: 50%;
+    padding: 0 5px 50%;
+    position: relative;
+}
+
+.box-phonemic-col-3 .box-phonemic-list > li {
+    width: 33.3333%;
+    padding: 0 5px 33.3333%;
+    position: relative;
+}
+
+.box-phonemic-col-4 .box-phonemic-list > li {
+    width: 25%;
+    padding: 0 5px 25%;
+    position: relative;
+}
+
+.box-phonemic-col-5 .box-phonemic-list > li {
+    width: 20%;
+    padding: 0 5px 20%;
+    position: relative;
+}
+
+.box-phonemic-col-6 .box-phonemic-list > li {
+    width: 16.6666%;
+    padding: 0 5px 16.6666%;
+    position: relative;
+}
+
+.box-phonemic-col-8 .box-phonemic-list > li {
+    width: 12.5%;
+    padding: 0 5px 12.5%;
+    position: relative;
+}
+
+.box-phonemic-col-9 .box-phonemic-list > li {
+    width: 10%;
+    padding: 0 5px 10%;
+    position: relative;
+}
+
+.box-phonemic-col-4 .box-phonemic-list > li {
+    width: 25%;
+    padding: 0 5px 25%;
+    position: relative;
+}
+
+.box-phonemic-item {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    bottom: 10px;
+    left: 5px;
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #E1483F;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.box-phonemic-item:hover {
+    border: 1px solid #7CD300;
+}
+
+.box-phonemic-dropdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.box-phonemic-dropdown:hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.box-phonemic-item:hover .box-phonemic-dropdown .fa-caret-down {
+    background-color: #7CD300;
+}
+
+.box-phonemic-dropdown .fa-caret-down {
+    float: right;
+    display: inline-block;
+    background-color: #E1483F;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.box-phonemic-dropdown ul {
+    display: none;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.box-phonemic-dropdown ul li {
+    border-bottom: 1px solid #7CD300;
+}
+
+.box-phonemic-dropdown ul li:last-child {
+    border-bottom-width: 0;
+}
+
+.box-phonemic-dropdown ul li a {
+    display: block;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.box-phonemic-dropdown ul li a:hover {
+    background-color: #7CD300;
+}
+
+.box-phonemic-dropdown ul li a span {
+    color: red;
+}
+
+.box-phonemic-dropdown:hover ul {
+    display: block;
+}
+
+.box-phonemic-dropdown:hover .fa-caret-down {
+    color: #666;
+}
+
+.box-phonemic-number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.box-phonemic-number span {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+}
+
+.box-phonemic-number {
+    color: inherit;
+    text-decoration: none;
+}
+
+.box-phonemic-number:hover span{
+    font-size: 36px;
+}
