@@ -132,6 +132,7 @@ $autoload['model'] = array(
     'node_model'                => 'node',
     'lessons_model'             => 'lessons',
     'newss_model'               => 'newss',
+    'category_model'            => 'category',
     'noun_model'                => 'noun',
 	'alphabet_model'            => 'alphabet',
     'livetv_model'              => 'livetv',

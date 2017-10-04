@@ -82,35 +82,7 @@ $params = $admin['params'];
                 </li>
                 <?php } ?>
 
-                <?php if(isset($params['category-video']) || isset($params['video']) || isset($params['video-item']) || isset($params['video-episode'])){ ?>
-                <li <?=$arg2=='node' && in_array($arg4, array('category-video', 'video', 'video-item', 'video-episode')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Video</a>
-                	<ul>
-						<?php if(isset($params['category-video'])){ ?>
-						<li<?=$arg2=='node' && $arg4 == 'category-video' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/category-video')?>"><i class="fa fa-list"></i> Danh mục</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['video'])){ ?>
-						<li<?=$arg2=='node' && $arg4 == 'video' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/video')?>"><i class="fa fa-file-video-o"></i> Video</a></li>
-						<?php } ?>
-                	</ul>
-                </li>
-                <?php } ?>
-
-				<?php if(isset($params['category-lessons']) || isset($params['lessons']) ){ ?>
-                <li <?=$arg2=='lessons' && in_array($arg4, array('category-lessons', 'lessons')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Lessons</a>
-                	<ul>
-						<?php if(isset($params['category-lessons'])){ ?>
-						<li<?=$arg2=='lessons' && $arg4 == 'category-lessons' ? ' class="active"' : ''?>><a href="<?=base_url('admin/lessons/index/category-lessons')?>"><i class="fa fa-list"></i> Category Lessons</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['lessons'])){ ?>
-						<li<?=$arg2=='lessons' && $arg4 == 'lessons' ? ' class="active"' : ''?>><a href="<?=base_url('admin/lessons/index/lessons')?>"><i class="fa fa-file-video-o"></i> Lessons</a></li>
-						<?php } ?>
-                	</ul>
-                </li>
-                <?php } ?>
-
-                <?php if(isset($params['categorys-newss']) || isset($params['newss']) ){ ?>
+                <?php if(isset($params['categorys-newss']) || isset($params['newss'])){ ?>
                     <li <?=$arg2=='newss' && in_array($arg4, array('categorys-newss', 'newss')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> News</a>
                         <ul>
                             <?php if(isset($params['categorys-newss'])){ ?>
@@ -124,156 +96,19 @@ $params = $admin['params'];
                     </li>
                 <?php } ?>
 
-                    <li><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Category</a>
+                <?php if(isset($params['category']) || isset($params['tags'])){ ?>
+                    <li <?=$arg2=='category' && in_array($arg4, array('category', 'tags')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Category</a>
                         <ul>
-                                <li><a href="<?=base_url('admin/category/index/')?>"><i class="fa fa-list"></i> Category</a></li>
+                            <?php if(isset($params['category'])){ ?>
+                                <li<?=$arg2=='category' && $arg4 == 'category' ? ' class="active"' : ''?>><a href="<?=base_url('admin/category/index/')?>"><i class="fa fa-list"></i> Category</a></li>
+                            <?php } ?>
 
-                                <li><a href="<?=base_url('admin/tags/index/')?>"><i class="fa fa-file-video-o"></i> Tags</a></li>
+                            <?php if(isset($params['category'])){ ?>
+                                <li<?=$arg2=='category' && $arg4 == 'tags' ? ' class="active"' : ''?>><a href="<?=base_url('admin/tags/index/')?>"><i class="fa fa-file-video-o"></i> Tags</a></li>
+                            <?php } ?>
                         </ul>
                     </li>
-
-				<?php if(isset($params['category-noun']) || isset($params['noun']) ){ ?>
-                <li <?=$arg2=='noun' && in_array($arg4, array('category-noun', 'noun')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Noun</a>
-                	<ul>
-						<?php if(isset($params['category-noun'])){ ?>
-						<li<?=$arg2=='noun' && $arg4 == 'category-noun' ? ' class="active"' : ''?>><a href="<?=base_url('admin/noun/index/category-noun')?>"><i class="fa fa-list"></i> Category Noun</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['noun'])){ ?>
-						<li<?=$arg2=='noun' && $arg4 == 'noun' ? ' class="active"' : ''?>><a href="<?=base_url('admin/noun/index/noun')?>"><i class="fa fa-file-video-o"></i> Noun</a></li>
-						<?php } ?>
-                	</ul>
-                </li>
                 <?php } ?>
-
-				<?php if(isset($params['main-alphabet']) || isset($params['category-alphabet']) || isset($params['alphabet']) ){ ?>
-                <li <?=$arg2=='alphabet' && in_array($arg4, array('main-alphabet', 'category-alphabet', 'alphabet')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Alphabet</a>
-                	<ul>
-						<?php if(isset($params['main-alphabet'])){ ?>
-						<li<?=$arg2=='alphabet' && $arg4 == 'main-alphabet' ? ' class="active"' : ''?>><a href="<?=base_url('admin/alphabet/index/main-alphabet')?>"><i class="fa fa-list"></i> Main Alphabet</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['category-alphabet'])){ ?>
-						<li<?=$arg2=='alphabet' && $arg4 == 'category-alphabet' ? ' class="active"' : ''?>><a href="<?=base_url('admin/alphabet/index/category-alphabet')?>"><i class="fa fa-list"></i> Category Alphabet</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['alphabet'])){ ?>
-						<li<?=$arg2=='alphabet' && $arg4 == 'alphabet' ? ' class="active"' : ''?>><a href="<?=base_url('admin/alphabet/index/alphabet')?>"><i class="fa fa-file-video-o"></i> Alphabet</a></li>
-						<?php } ?>
-                	</ul>
-                </li>
-                <?php } ?>
-
-                <?php if(isset($params['category-news']) || isset($params['news'])){ ?>
-                <li<?=$arg2=='node' && in_array($arg4, array('category-news', 'news')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Tin tức - Sự kiện</a>
-                	<ul>
-						<?php if(isset($params['category-news'])){ ?>
-						<li<?=$arg2=='node' && $arg4 == 'category-news' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/category-news')?>"><i class="fa fa-list"></i> Danh mục</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['news'])){ ?>
-						<li<?=$arg2=='node' && $arg4 == 'news' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/news')?>"><i class="fa fa-newspaper-o"></i> Tin tức - Sự kiện</a></li>
-						<?php } ?>
-                	</ul>
-                </li>
-                <?php } ?>
-
-                <?php if(isset($params['category-relax']) || isset($params['relax']) || isset($params['relax-item'])){ ?>
-                <li <?=$arg2=='node' && in_array($arg4, array('category-relax', 'relax', 'relax-item', 'relax-episode')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Giải trí trên KTV</a>
-                	<ul>
-						<?php if(isset($params['category-relax'])){ ?>
-						<li<?=$arg2=='node' && $arg4 == 'category-relax' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/category-relax')?>"><i class="fa fa-list"></i> Danh mục</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['relax'])){ ?>
-						<li<?=$arg2=='node' && $arg4 == 'relax' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/relax')?>"><i class="fa fa-file-video-o"></i> Giải trí</a></li>
-						<?php } ?>
-                	</ul>
-                </li>
-                <?php } ?>
-
-                <?php if(isset($params['about'])){ ?>
-                <li<?=$arg2=='node' && $arg4 == 'about' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/about')?>"><i class="fa fa-edit"></i> Giới thiệu</a></li>
-                <?php } ?>
-
-                <?php if(isset($params['banner'])){ ?>
-                <li<?=$arg2=='node' && $arg4 == 'banner' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/banner')?>"><i class="fa fa-adn"></i> Banner</a></li>
-                <?php } ?>
-
-                <?php if(isset($params['ad'])){ ?>
-                <li<?=$arg2=='node' && $arg4 == 'ad' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/ad')?>"><i class="fa fa-adn"></i> Quảng cáo</a></li>
-                <?php } ?>
-
-                <?php if(isset($params['notice'])){ ?>
-                <li<?=$arg2=='node' && $arg4 == 'notice' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/notice')?>"><i class="fa fa-bell-o"></i> Thông báo</a></li>
-                <?php } ?>
-
-                <?php if(isset($params['career'])){ ?>
-                <li<?=$arg2=='node' && $arg4 == 'career' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/career')?>"><i class="fa fa-sitemap"></i> Tuyển dụng</a></li>
-                <?php } ?>
-
-                <?php if(isset($params['link'])){ ?>
-                <li<?=$arg2=='node' && $arg4 == 'link' ? ' class="active"' : ''?>><a href="<?=base_url('admin/node/index/link')?>"><i class="fa fa-link"></i> Liên kết website</a></li>
-                <?php } ?>
-
-                <?php if(isset($params['livetv']) || isset($params['livetv_schedule']) || isset($params['livetv_tream'])){ ?>
-				<li <?= in_array($arg2, array('livetv', 'livetv_schedule')) && in_array($arg4, array('livetv', 'livetv_schedule', 'livetv_tream')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Kênh KTV</a>
-                	<ul>
-						<?php if(isset($params['livetv'])){ ?>
-						<li <?=$arg2=='livetv' && $arg4 == 'livetv' ? ' class="active"' : ''?>><a href="<?=base_url('admin/livetv/index/livetv')?>"><i class="fa fa-file-video-o"></i> Kênh KTV</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['livetv_schedule'])){ ?>
-						<li <?=$arg2=='livetv_schedule' && $arg4 == 'livetv_schedule' ? ' class="active"' : ''?>><a href="<?=base_url('admin/livetv_schedule/index/livetv_schedule')?>"><i class="fa fa-list"></i> Lịch phát sóng</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['livetv_tream'])){ ?>
-						<li <?=$arg2=='livetv' && $arg4 == 'livetv_tream' ? ' class="active"' : ''?>><a href="<?=base_url('admin/livetv/livetv_tream/livetv_tream')?>"><i class="fa fa-file-video-o"></i> Stream sự kiện</a></li>
-						<?php } ?>
-                	</ul>
-                </li>
-                <?php } ?>
-
-
-                <?php if(isset($params['livevideo']) ){ ?>
-				<li <?= in_array($arg4, array('livevideo'))  ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Video truyền hình</a>
-                	<ul>
-						<?php if(isset($params['livevideo'])){ ?>
-                        <li <?=$arg2=='livevideo' && $arg4 == 'livevideo' ? ' class="active"' : ''?>><a href="<?=base_url('admin/livevideo/index/livevideo')?>"><i class="fa fa-file-video-o"></i> Video truyền hình</a></li>
-                        <?php } ?>
-
-                	</ul>
-                </li>
-                <?php } ?>
-
-				<?php if(isset($params['radio']) || isset($params['radio_schedule']) || isset($params['livevideo'])  || isset($params['note']) ){ ?>
-				<li <?= in_array($arg2, array('radio', 'radio_schedule', 'livevideo', 'node')) && in_array($arg4, array('radio','radio_schedule','radiovideo','category-radio')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Đài phát thanh</a>
-                	<ul>
-
-						<?php if(isset($params['radio'])){ ?>
-						<li <?=$arg2=='radio' && $arg4 == 'radio' ? ' class="active"' : ''?>><a href="<?=base_url('admin/radio/index/radio')?>"><i class="fa fa-file-video-o"></i> Đài phát thanh</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['radio_schedule'])){ ?>
-						<li <?=$arg2=='radio_schedule' && $arg4 == 'radio_schedule' ? ' class="active"' : ''?>><a href="<?=base_url('admin/radio_schedule/index/radio_schedule')?>"><i class="fa fa-list"></i> Lịch phát thanh</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['category-radio'])){ ?>
-						<li <?php echo ($arg2=='node' && $arg4=='category-radio') ? 'class="active"' : '';?>><a href="<?=base_url('admin/node/index/category-radio')?>"><i class="fa fa-list"></i> Danh mục phát thanh</a></li>
-						<?php } ?>
-
-						<?php if(isset($params['livevideo'])){ ?>
-						<li <?=$arg2=='livevideo' && $arg4 == 'radiovideo' ? ' class="active"' : ''?>><a href="<?=base_url('admin/livevideo/index/radiovideo')?>"><i class="fa fa-file-video-o"></i> Video phát thanh</a></li>
-						<?php } ?>
-
-                	</ul>
-                </li>
-                <?php } ?>
-
-                <?php if(isset($params['comment'])){ ?>
-                <li<?=$arg2=='comment' ? ' class="active"' : ''?>><a href="<?=base_url('admin/comment')?>"><i class="fa fa-comments-o"></i> Ý kiến bạn đọc</a></li>
-                <?php } ?>
-
 
                 <li<?=$arg2=='user' && $arg3=='profile' ? ' class="active"' : ''?>><a href="<?=base_url('admin/user/profile')?>"><i class="fa fa-cog"></i> Thay đổi thông tin</a></li>
 
