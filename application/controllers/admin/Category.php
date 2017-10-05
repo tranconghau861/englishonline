@@ -3,15 +3,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Category extends CI_Controller
 {
-    public function index($extension = '', $offset = 0)
+    public function index($offset = 0)
     {
         $admin = $this->session->admin;
-        if (!isset($admin['params'][$extension])) {
+        if (!isset($admin['params'])) {
             redirect('admin');
         }
 
+
         $post = $this->input->post();
-        if ($post && isset($admin['params'][$extension]['delete'])) {
+        if ($post && isset($admin['params']['delete'])) {
             foreach ($post['id'] as $id) {
                 $row = $this->category->item($id);
                 $file = 'upload/' . $row->photo;
@@ -43,7 +44,7 @@ class Category extends CI_Controller
 
                 $this->category->delete($id);
             }
-            redirect('admin/category/index/' . $extension);
+            redirect('admin/category/index/');
         }
 
         $uid = $admin['gid'] > 3 ? '' : $admin['id'];
@@ -51,6 +52,7 @@ class Category extends CI_Controller
 
         $view['s'] = $s = $this->input->get('s');
         $view['cid'] = $cid = $this->input->get('cid');
+
 //        $view['date_from'] = $date_from = $this->input->get('date_from');
 //        $view['date_to'] = $date_to = $this->input->get('date_to');
 
@@ -64,15 +66,14 @@ class Category extends CI_Controller
 //            $date_to = $date_to_exp[2] .'-'. $date_to_exp[1] .'-'. $date_to_exp[0];
 //        }
 
-        $view['rows'] = $this->category->items($extension, $offset, $limit, $s, $cid /*$date_from, $date_to*/);
-        $view['total'] = $total = $this->category->total($extension, $s, $cid/*$date_from, $date_to*/);
+        $view['rows'] = $this->category->items($offset, $limit, $s, $cid /*$date_from, $date_to*/);
+        $view['total'] = $total = $this->category->total($s, $cid/*$date_from, $date_to*/);
         $view['admin'] = $admin;
-        $view['extension'] = $extension;
         $view['islang'] = 1;
         $view['modlang'] = array('category', 'tags');
-        $view['category'] = $this->category->parent('category-' . $extension);
+
         $this->pagination->initialize(array(
-            'base_url' => site_url('admin/category/index/' . $extension),
+            'base_url' => site_url('admin/category/index/'),
             'total_rows' => $total,
             'per_page' => $limit,
         ));
@@ -81,7 +82,7 @@ class Category extends CI_Controller
         $this->load->view('admin/category/cate_list', $view);
     }
 
-    public function form($extension = '', $id = 0)
+    public function form($id = 0)
     {
         $admin = $this->session->admin;
         if (!isset($admin['params'][$extension]['add']) || (!isset($admin['params'][$extension]['edit']) && $id)) {

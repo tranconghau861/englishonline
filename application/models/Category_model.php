@@ -18,7 +18,7 @@ class Category_model extends MY_Model {
         return $this->db->get_where('category', array($key => $val))->row();
     }
 
-    public function items($extension = '', $offset = 0, $limit = 50, $s = '', $cid = '' /*$date_from = '', $date_to = ''*/)
+    public function items($offset = 0, $limit = 50, $s = '', $cid = '' /*$date_from = '', $date_to = ''*/)
     {
         if($s){
             $this->db->where("title LIKE '%{$s}%'");
@@ -33,25 +33,16 @@ class Category_model extends MY_Model {
             $this->db->where('parent', $cid);
         }
         $this->db->order_by('id', 'DESC');
-        return $this->db->get_where('category', array('extension' => $extension), $limit, $offset)->result();
-
+        return $this->db->get('category', $limit, $offset)->result();
     }
 
-    public function total($extension = '', $s = '', $cid = ''/* $date_from = '', $date_to = ''*/)
+    public function total($s = '', $cid = ''/* $date_from = '', $date_to = ''*/)
     {
         if($s){
             $this->db->where("title LIKE '%{$s}%'");
         }
-//        if((int) $date_from){
-//            $this->db->where('( date_from = "0000-00-00" OR date_from <= "'. $date_from .'" )');
-//        }
-//        if((int) $date_to){
-//            $this->db->where('( date_to = "0000-00-00" OR date_to >= "'. $date_to .'" )');
-//        }
-        if($cid){
-            $this->db->where('parent', $cid);
-        }
-        return $this->db->get_where('category', array('extension' => $extension))->num_rows();
+
+        return $this->db->get('category')->num_rows();
     }
 
     public function save($extension = '', $post, $id = 0)
@@ -114,35 +105,6 @@ class Category_model extends MY_Model {
         $this->db->delete('category', array(
             $key => $val,
         ));
-    }
-
-    public function parent($extension = '', $id = 0, $alt = '')
-    {
-        $data = array();
-        $this->db->order_by('parent ASC, title ASC');
-        $query = $this->db->get_where('category', array('extension' => $extension, 'parent' => $id));
-
-        $a = $this->db->last_query($query);
-//        print_r($a) . "<br>";
-        $rows = $query->result();
-        if($rows){
-            foreach($rows as $row){
-                $row->alt = $alt . $row->title;
-                $data[] = $row;
-                $parent = $this->parent($extension, $row->id, '&mdash; '. $alt);
-                $data = array_merge($data, $parent);
-            }
-        }
-
-//        print_r($data);
-        return $data;
-
-    }
-
-    public function parents($extension = '')
-    {
-        $this->db->order_by('title ASC');
-        return $this->db->get_where('category', array('extension' => $extension))->result();
     }
 
 //    public function news_category($extension = '', $id = 0)

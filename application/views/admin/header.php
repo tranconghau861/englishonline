@@ -100,7 +100,7 @@ $params = $admin['params'];
                     <li <?=$arg2=='category' && in_array($arg4, array('category', 'tags')) ? ' class="active"' : ''?>><a href="#" class="toggle"><i class="fa fa-angle-down"></i> Category</a>
                         <ul>
                             <?php if(isset($params['category'])){ ?>
-                                <li<?=$arg2=='category' && $arg4 == 'category' ? ' class="active"' : ''?>><a href="<?=base_url('admin/category/index/category')?>"><i class="fa fa-list"></i> Category</a></li>
+                                <li<?=$arg2=='category' && $arg4 == 'category' ? ' class="active"' : ''?>><a href="<?=base_url('admin/category/index/')?>"><i class="fa fa-list"></i> Category</a></li>
                             <?php } ?>
 
                             <?php if(isset($params['tags'])){ ?>
