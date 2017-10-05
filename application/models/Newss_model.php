@@ -34,6 +34,8 @@ class Newss_model extends MY_Model {
         }
         $this->db->order_by('id', 'DESC');
         return $this->db->get_where('news', array('extension' => $extension), $limit, $offset)->result();
+//        $a = $this->db->last_query($query);
+//        print_r($a) . "<br>";
     }
 
     public function total($extension = '', $s = '', $cid = ''/* $date_from = '', $date_to = ''*/)

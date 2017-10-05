@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <?php if(!in_array($extension, array('banner', 'ad', 'video-item', 'relax-item', 'about', 'link'))){ ?>
+    <?php if(!in_array($extension, array('cat', 'ad', 'video-item', 'relax-item', 'about', 'link'))){ ?>
         <div class="form-group">
             <label class="col-sm-2 control-label">Seo url</label>
             <div class="col-sm-6">
@@ -36,7 +36,7 @@
         </div>
     </div>
 
-    <?php if(in_array($extension, array('newss', 'video', 'relax', 'career', 'about', 'notice'))){ ?>
+    <?php if(in_array($extension, array('video', 'relax', 'career', 'about', 'notice'))){ ?>
         <div class="form-group">
             <label class="col-sm-2 control-label">Description</label>
             <div class="col-sm-10">
@@ -80,7 +80,7 @@
 
                 <label class="checkbox-inline"><input type="checkbox" name="status" value="1" <?=@$row->status || !isset($row->status)?'checked':''?>> Kích hoạt</label>
 
-                <?php if(in_array($extension, array('category-video', 'categorys-newss'))){ ?>
+                <?php if(in_array($extension, array('category-video', 'category'))){ ?>
                     <label class="checkbox-inline"><input type="checkbox" name="home" value="1" <?=@$row->home?'checked':''?>> Trang chủ</label>
                 <?php } ?>
 
@@ -103,8 +103,8 @@
         </div>
     <?php } ?>
 
-    <?php if(in_array($extension, array('category-radio', 'categorys-newss', 'category-video', 'category-relax'))){
-        $categorys = $this->newss->parent($extension);
+    <?php if(in_array($extension, array('category-radio', 'category', 'category-video', 'category-relax'))){
+        $categorys = $this->category->parent($extension);
         ?>
         <div class="form-group">
             <label class="col-sm-2 control-label">Danh mục cha</label>
@@ -373,7 +373,7 @@
         <label class="col-sm-2 control-label">&nbsp;</label>
         <div class="col-sm-4">
             <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Lưu</button>
-            <a href="<?=base_url('admin/newss/index/'. $extension)?>" class="btn btn-default"><i class="fa fa-eraser"></i> Huỷ</a>
+            <a href="<?=base_url('admin/category/index/'. $extension)?>" class="btn btn-default"><i class="fa fa-eraser"></i> Huỷ</a>
         </div>
     </div>
 </form>
