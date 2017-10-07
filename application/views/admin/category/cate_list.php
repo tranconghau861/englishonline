@@ -64,58 +64,57 @@
                 foreach ($rows as $row) {
                     ?>
                     <tr>
-                        <td class="text-center"><input type="checkbox" name="id[]" value="<?= $row->id ?>"></td>
+                    <td class="text-center"><input type="checkbox" name="id[]" value="<?= $row->id ?>"></td>
 
-                        <td class="text-center"><?= $i ?></td>
+                    <td class="text-center"><?= $i ?></td>
 
-                        <td>
-                            <?= $row->title ?>
-                        </td>
+                    <td>
+                        <?= $row->title ?>
+                    </td>
 
-                        <td class="text-center">
-                            <?php
-                                if ($row->status == 1) {
-                                    echo '<i class="fa fa-check" data-toggle="tooltip" data-placement="top" title="Xuất bản"></i>';
-                                } else if ($row->status == -1) {
-                                    echo '<i class="fa fa-recycle" data-toggle="tooltip" data-placement="top" title="Bản nháp"></i>';
-                                } else {
-                                    echo '<i class="fa fa-minus-circle" data-toggle="tooltip" data-placement="top" title="Chờ duyệt"></i>';
-                                }
-                            ?>
-                        </td>
+                    <td class="text-center">
+                        <?php
+                        if ($row->status == 1) {
+                            echo '<i class="fa fa-check" data-toggle="tooltip" data-placement="top" title="Xuất bản"></i>';
+                        } else if ($row->status == -1) {
+                            echo '<i class="fa fa-recycle" data-toggle="tooltip" data-placement="top" title="Bản nháp"></i>';
+                        } else {
+                            echo '<i class="fa fa-minus-circle" data-toggle="tooltip" data-placement="top" title="Chờ duyệt"></i>';
+                        }
+                        ?>
+                    </td>
 
-                        <td class="text-center">
-                            <p>
-                                    <a href="<?= base_url('admin/category/form/' . $row->id) ?>"
-                                       data-toggle="tooltip" data-placement="top" title="Sửa"><i
-                                                class="fa fa-pencil"></i></a> &nbsp;
+                    <td class="text-center">
+                    <p>
+                        <a href="<?= base_url('admin/category/form/' . $row->id) ?>"
+                           data-toggle="tooltip" data-placement="top" title="Sửa"><i
+                                    class="fa fa-pencil"></i></a> &nbsp;
 
-                                    <a href="<?= base_url('admin/category/delete/' . $row->id) ?>"
-                                       data-toggle="tooltip" data-placement="top" title="Xoá" class="delrow"><i
-                                                class="fa fa-trash-o"></i></a> &nbsp;
+                        <a href="<?= base_url('admin/category/delete/' . $row->id) ?>"
+                           data-toggle="tooltip" data-placement="top" title="Xoá" class="delrow"><i
+                                    class="fa fa-trash-o"></i></a> &nbsp;
 
-                                    <a href="<?= base_url('admin/category/copy/' . $row->id) ?>"
-                                       data-toggle="tooltip" data-placement="top" title="Copy"><i
-                                                class="fa fa-copy"></i></a>
-                            </p>
+                        <a href="<?= base_url('admin/category/copy/' . $row->id) ?>"
+                           data-toggle="tooltip" data-placement="top" title="Copy"><i
+                                    class="fa fa-copy"></i></a>
+                    </p>
 
-                                <p>
-                                    <a href="<?= base_url('admin/newss/status/' . $row->id . '/1') ?>"
-                                       data-toggle="tooltip" data-placement="top" title="Xuất bản"><i
-                                       class="fa fa-refresh"></i></a> &nbsp;
+                    <p>
+                        <a href="<?= base_url('admin/category/status/' . $row->id . '/1') ?>"
+                           data-toggle="tooltip" data-placement="top" title="Xuất bản"><i
+                                    class="fa fa-refresh"></i></a> &nbsp;
 
-                                    <a href="<?= base_url('admin/category/status/' . $row->id . '/0') ?>"
-                                       data-toggle="tooltip" data-placement="top" title="Chờ duyệt"><i
-                                       class="fa fa-arrow-circle-o-down"></i></a> &nbsp;
+                        <a href="<?= base_url('admin/category/status/' . $row->id . '/0') ?>"
+                           data-toggle="tooltip" data-placement="top" title="Chờ duyệt"><i
+                                    class="fa fa-arrow-circle-o-down"></i></a> &nbsp;
 
-                                    <a href="<?= base_url('/preview/' . $row->alias) ?>"
-                                       data-toggle="tooltip" data-placement="top" title="Xem trước" target='_blank'><i
-                                       class="fa fa-search"></i></a>
-                                </p>
-                            <?php } ?>
-                        </td>
-                    </tr>
-                    <?php $i++;
+                        <a href="<?= base_url('/preview/' . $row->alias) ?>"
+                           data-toggle="tooltip" data-placement="top" title="Xem trước" target='_blank'><i
+                                    class="fa fa-search"></i></a>
+                    </p>
+                </tr>
+                <?php $i++;
+                }
             } ?>
             </tbody>
         </table>

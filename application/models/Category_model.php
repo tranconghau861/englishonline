@@ -45,7 +45,7 @@ class Category_model extends MY_Model {
         return $this->db->get('category')->num_rows();
     }
 
-    public function save($extension = '', $post, $id = 0)
+    public function save($post, $id = 0)
     {
         $admin = $this->session->admin;
 //        if(isset($post['date_from'])  &&  (int) $post['date_from']){
@@ -59,35 +59,12 @@ class Category_model extends MY_Model {
         $data = array(
             'title'             => $post['title'],
             'alias'             => isset($post['alias']) ? $post['alias'] : '',
-//            'intro'             => isset($post['intro']) ? $post['intro'] : '',
-//            'content'           => isset($post['content']) ? $post['content'] : '',
-//            'photo'             => isset($post['photo']) ? $post['photo'] : '',
             'status'            => isset($post['status']) ? $post['status'] : 0,
-            'extension'         => $extension,
-//            'link'              => isset($post['link']) ? $post['link'] : '',
-//            'position'          => isset($post['position']) ? $post['position'] : '',
-            'parent'            => isset($post['parent']) ? $post['parent'] : 0,
-//            'gallery'           => isset($post['gallery']) ? serialize($post['gallery']) : '',
-//            'fields'            => isset($post['fields']) ? serialize($post['fields']) : '',
-//            'ordering'          => isset($post['ordering']) ? $post['ordering'] : 0,
-//            'tag'               => isset($post['tag']) ? $post['tag'] : '',
-//            'keywords'          => isset($post['keywords']) ? $post['keywords'] : '',
-//            'description'       => isset($post['description']) ? $post['description'] : '',
-//            'type'              => isset($post['type']) ? $post['type'] : '',
-//            'date_from'         => isset($date_from) ? $date_from : '',
-//            'date_to'           => isset($date_to) ? $date_to : '',
-//            'number_episode'    => isset($post['number_episode']) ? $post['number_episode'] : 0,
-//            'hot'               => isset($post['hot']) ? $post['hot'] : 0,
-//            'featured'          => isset($post['featured']) ? $post['featured'] : 0,
-//            'home'              => isset($post['home']) ? $post['home'] : 0,
-//            'special'           => isset($post['special']) ? $post['special'] : 0,
         );
         if($id){
-//            $data['modified'] = date('Y-m-d H:i:s');
             $this->db->update('category', $data, array('id' => $id));
         }
         else{
-//            $data['created'] = date('Y-m-d H:i:s');
             $data['uid'] = isset($post['uid']) ? $post['uid'] : $admin['id'];
             $this->db->insert('category', $data);
             $id = $this->db->insert_id();
@@ -118,7 +95,7 @@ class Category_model extends MY_Model {
 //        return $this->db->get_where('news', array('extension' => $extension, 'alias' => $alias))->row();
 //    }
 
-    public function copy($extension = '', $id = 0)
+    public function copy($id = 0)
     {
         $this->db->order_by('id DESC');
         $row = $this->db->get('category')->row();
@@ -131,16 +108,6 @@ class Category_model extends MY_Model {
         $this->db->update('category', $params, array('id' => $autoid));
     }
 
-////    public function language($extension = '', $post, $id = 0)
-////    {
-////        $data = array(
-////            'title_en'   => $post['title_en'],
-////            'intro_en'   => isset($post['intro_en']) ? $post['intro_en'] : '',
-////            'content_en' => isset($post['content_en']) ? $post['content_en'] : '',
-////        );
-////        $this->db->update('node', $data, array('id' => $id));
-////    }
-//
     public function set_view($id = 0, $view = 0)
     {
         $data = array(
@@ -148,14 +115,6 @@ class Category_model extends MY_Model {
         );
         $this->db->update('category', $data, array('id' => $id));
     }
-
-////    public function set_like($id = 0, $sum_like = 0)
-////    {
-////        $data = array(
-////            'sum_like'   => $sum_like,
-////        );
-////        $this->db->update('news', $data, array('id' => $id));
-////    }
 
     private function _get_posts($param = array())
     {
@@ -270,14 +229,14 @@ class Category_model extends MY_Model {
         return $rows;
     }
 
-    public function status($extension = '', $id = 0, $status = '')
+    public function status($id = 0, $status = '')
     {
         $admin = $this->session->admin;
         $data = array(
             'status'            => $status,
             'published_by'      => $admin['id'],
         );
-        $this->db->update('category', $data, array('extension' => $extension, 'id' => $id));
+        $this->db->update('category', $data, array('id' => $id));
     }
 
     public function update($id = '', $key = '', $val = '')

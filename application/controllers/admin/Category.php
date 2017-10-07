@@ -10,10 +10,11 @@ class Category extends CI_Controller
             redirect('admin');
         }
 
-
         $post = $this->input->post();
-        if ($post && isset($admin['params']['delete'])) {
+
+        if ($post){
             foreach ($post['id'] as $id) {
+
                 $row = $this->category->item($id);
                 $file = 'upload/' . $row->photo;
                 if ($row->photo && file_exists($file)) {
@@ -84,54 +85,31 @@ class Category extends CI_Controller
 
     public function form($id = 0)
     {
-        $admin = $this->session->admin;
-        if (!isset($admin['params'][$extension]['add']) || (!isset($admin['params'][$extension]['edit']) && $id)) {
-            redirect('admin');
-        }
+//        if (!isset($admin['params']['add']) || (!isset($admin['params']['edit']) && $id)) {
+//            redirect('admin');
+//        }
         $row = $this->category->item($id);
         if ($post = $this->input->post()) {
             if (!$post['title']) {
                 $view['msg'] = 'Vui lòng nhập tiêu đề';
             } else {
-                $this->mp_cache->delete_group('cache.category_' . $extension . '_');
-                $this->category->save($extension, $post, $id);
-                redirect('admin/category/index/' . $extension);
+                $this->mp_cache->delete_group('cache.category_');
+                $this->category->save($post, $id);
+                redirect('admin/category/index/');
             }
         }
 
         $view['row'] = empty($post) ? $row : (object)$post;
-        $view['extension'] = $extension;
         $this->load->view('admin/header');
         $this->load->view('admin/category/cate_form', $view);
     }
 
-    public function language($extension = '', $id = 0)
+    public function delete($id = 0)
     {
-        $admin = $this->session->admin;
-        if (!isset($admin['params'][$extension]['edit']) && $id) {
-            redirect('admin');
-        }
-        $row = $this->category->item($id);
-        if ($post = $this->input->post()) {
-            if (!$post['title_en']) {
-                $view['msg'] = 'Vui lòng nhập tiêu đề';
-            } else {
-                $this->category->language($extension, $post, $id);
-                redirect('admin/category/index/' . $extension);
-            }
-        }
-        $view['row'] = empty($post) ? $row : (object)$post;
-        $view['extension'] = $extension;
-        $this->load->view('admin/header');
-        $this->load->view('admin/category/cate_lang', $view);
-    }
-
-    public function delete($extension = '', $id = 0)
-    {
-        $admin = $this->session->admin;
-        if (!isset($admin['params'][$extension]['delete'])) {
-            redirect('admin');
-        }
+//        $admin = $this->session->admin;
+//        if (!isset($admin['params']['delete'])) {
+//            redirect('admin');
+//        }
 
         if ($id) {
             $row = $this->category->item($id);
@@ -148,51 +126,33 @@ class Category extends CI_Controller
                 }
             }
 
-            $gallery = unserialize($row->gallery);
-            if ($gallery) {
-                foreach ($gallery as $g) {
-                    $gfile = 'upload/' . $g;
-
-                    if ($g && file_exists($gfile)) {
-                        unlink($gfile);
-
-                        // upload ftp
-                        $connect = $this->ftp->connect();
-                        if ($connect) {
-                            $this->ftp->delete_file('/upload/' . $g);
-                            $this->ftp->close();
-                        }
-                    }
-                }
-            }
-
             $this->category->delete($id);
         }
-        redirect('admin/category/index/' . $extension);
+        redirect('admin/category/index/');
     }
 
-    public function copy($extension = '', $id = 0)
+    public function copy($id = 0)
     {
-        $admin = $this->session->admin;
-        if (!isset($admin['params'][$extension]['edit']) && $id) {
-            redirect('admin');
-        }
+//        $admin = $this->session->admin;
+//        if (!isset($admin['params'][$extension]['edit']) && $id) {
+//            redirect('admin');
+//        }
 
         if ($id) {
-            $this->category->copy($extension, $id);
+            $this->category->copy($id);
         }
-        redirect('admin/category/index/' . $extension);
+        redirect('admin/category/index/');
     }
 
-    public function status($extension = '', $id = 0, $status = '')
+    public function status($id = 0, $status = '')
     {
-        $admin = $this->session->admin;
-        if (!isset($admin['params'][$extension]['edit']) && $id) {
-            redirect('admin');
-        }
+//        $admin = $this->session->admin;
+//        if (!isset($admin['params'][$extension]['edit']) && $id) {
+//            redirect('admin');
+//        }
 
-        $this->category->status($extension, $id, $status);
-        redirect('admin/category/index/' . $extension);
+        $this->category->status($id, $status);
+        redirect('admin/category/index/');
     }
 
     public function filter()
