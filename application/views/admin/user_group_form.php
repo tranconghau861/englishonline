@@ -75,9 +75,9 @@
                                     </tr>
                                     <tr>
                                         <td>Tags</td>
-                                        <td class="text-center"><input class="chkAddVal" type="checkbox" name="params[tags][add]" value="1" <?=@$params['tags']['add'] ? 'checked' : ''?>></td>
-                                        <td class="text-center"><input class="chkEditVal" type="checkbox" name="params[tags][edit]" value="1" <?=@$params['tags']['edit'] ? 'checked' : ''?>></td>
-                                        <td class="text-center"><input class="chkDeleteVal" type="checkbox" name="params[tags][delete]" value="1" <?=@$params['tags']['delete'] ? 'checked' : ''?>></td>
+                                        <td class="text-center"><input class="chkAddVal" type="checkbox" name="params[tag][add]" value="1" <?=@$params['tag']['add'] ? 'checked' : ''?>></td>
+                                        <td class="text-center"><input class="chkEditVal" type="checkbox" name="params[tag][edit]" value="1" <?=@$params['tag']['edit'] ? 'checked' : ''?>></td>
+                                        <td class="text-center"><input class="chkDeleteVal" type="checkbox" name="params[tag][delete]" value="1" <?=@$params['tag']['delete'] ? 'checked' : ''?>></td>
                                     </tr>
 									
 								</tbody>

@@ -103,8 +103,8 @@ $params = $admin['params'];
                                 <li<?=$arg2=='category' && $arg4 == 'category' ? ' class="active"' : ''?>><a href="<?=base_url('admin/category/index/')?>"><i class="fa fa-list"></i> Category</a></li>
                             <?php } ?>
 
-                            <?php if(isset($params['tags'])){ ?>
-                                <li<?=$arg2=='tags' && $arg4 == 'tags' ? ' class="active"' : ''?>><a href="<?=base_url('admin/tags/index/')?>"><i class="fa fa-file-video-o"></i> Tags</a></li>
+                            <?php if(isset($params['tag'])){ ?>
+                                <li<?=$arg2=='tag' && $arg4 == 'tag' ? ' class="active"' : ''?>><a href="<?=base_url('admin/tag/index/')?>"><i class="fa fa-file-video-o"></i> Tags</a></li>
                             <?php } ?>
                         </ul>
                     </li>
