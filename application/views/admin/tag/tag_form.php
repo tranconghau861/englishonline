@@ -1,5 +1,5 @@
 
-<?=isset($msg)?'<div class="alert alert-danger" role="alert">'. $msg .'</div>':''?>
+<?=isset($msg)?'<div class="alert alert-danger" role="alert">' . $msg . '</div>' : '' ?>
 
 <h1 class="page-header">Tag New</h1>
 
@@ -11,25 +11,30 @@
         </div>
     </div>
 
-        <div class="form-group">
-            <label class="col-sm-2 control-label">Seo url</label>
-            <div class="col-sm-6">
-                <input type="text" class="form-control" name="alias" id="txtSlug" value="<?=@$row->alias?>">
-            </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Seo url</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="alias" id="txtSlug" value="<?=@$row->alias?>">
         </div>
+    </div>
 
     <div class="form-group">
         <label class="col-sm-2 control-label">&nbsp;</label>
         <div class="col-sm-10">
-                <p>
-                    <label class="radio-inline"><input type="radio" name="status" value="1" <?=@$row->status || !isset($row->status)?'checked':''?>> Xuất bản</label>
-                    <label class="radio-inline"><input type="radio" name="status" value="0" <?=@$row->status==0 && isset($row->status)?'checked':''?>> Chờ duyệt</label>
-                    <label class="radio-inline"><input type="radio" name="status" value="-1" <?=@$row->status==-1?'checked':''?>> Bản nháp</label>
-                </p>
+            <p>
+                <label class="radio-inline"><input type="radio" name="status" value="1" <?=@$row->status ||
+                    !isset($row->status) ? 'checked' : '' ?>> Xuất bản</label>
+                <label class="radio-inline"><input type="radio" name="status" value="0" <?=@$row->status ==0 &&
+                    isset($row->status) ? 'checked' : '' ?>> Chờ duyệt</label>
+                <label class="radio-inline"><input type="radio" name="status" value="-1" <?=@$row->status == -1 ?
+                    'checked' : '' ?>> Bản nháp</label>
+            </p>
 
-                <label class="checkbox-inline"><input type="checkbox" name="status" value="1" <?=@$row->status || !isset($row->status)?'checked':''?>> Kích hoạt</label>
+            <label class="checkbox-inline"><input type="checkbox" name="status" value="1" <?=@$row->status ||
+                !isset($row->status) ? 'checked' : '' ?>> Kích hoạt</label>
 
-                    <label class="checkbox-inline"><input type="checkbox" name="home" value="1" <?=@$row->home?'checked':''?>> Trang chủ</label>
+            <label class="checkbox-inline"><input type="checkbox" name="home" value="1" <?=@$row->home? 'checked' : ''?>
+                > Trang chủ</label>
         </div>
     </div>
     <div class="form-group">
@@ -40,8 +45,3 @@
         </div>
     </div>
 </form>
-</div>
-</div>
-</div>
-</body>
-</html>

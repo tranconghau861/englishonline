@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Tag_model extends MY_Model {
+class Tag_model extends MY_Model
+{
 
     public function __construct()
     {
@@ -18,21 +19,19 @@ class Tag_model extends MY_Model {
         return $this->db->get_where('tag', array($key => $val))->row();
     }
 
-    public function items($offset = 0, $limit = 50, $s = '', $cid = '')
+    public function items($offset = 0, $limit = 50, $s = '')
     {
-        if($s){
+        if ($s) {
             $this->db->where("title LIKE '%{$s}%'");
         }
-        if($cid){
-            $this->db->where('parent', $cid);
-        }
         $this->db->order_by('id', 'DESC');
+
         return $this->db->get('tag', $limit, $offset)->result();
     }
 
-    public function total($s = '', $cid = '')
+    public function total($s = '')
     {
-        if($s){
+        if ($s) {
             $this->db->where("title LIKE '%{$s}%'");
         }
 
@@ -43,22 +42,20 @@ class Tag_model extends MY_Model {
     {
         $admin = $this->session->admin;
         $data = array(
-            'title'             => $post['title'],
-            'alias'             => isset($post['alias']) ? $post['alias'] : '',
-            'status'            => isset($post['status']) ? $post['status'] : 0,
+            'title' => $post['title'],
+            'alias' => isset($post['alias']) ? $post['alias'] : '',
+            'status' => isset($post['status']) ? $post['status'] : 0,
         );
-        if($id){
+        if ($id) {
             $this->db->update('tag', $data, array('id' => $id));
-        }
-        else{
+        } else {
             $data['uid'] = isset($post['uid']) ? $post['uid'] : $admin['id'];
             $this->db->insert('tag', $data);
-            $id = $this->db->insert_id();
         }
         $exist = $this->check_alias($id, @$post['alias']);
-        if(empty($post['alias'])  ||  $exist){
+        if (empty($post['alias']) || $exist) {
             $alias = url_title(convert_accented_characters($post['title']), 'dash', true);
-            $this->db->update('tag', array('alias' => $alias .'-'. $id), array('id' => $id));
+            $this->db->update('tag', array('alias' => $alias . '-' . $id), array('id' => $id));
         }
 
         return $id;
@@ -76,20 +73,19 @@ class Tag_model extends MY_Model {
         $this->db->order_by('id DESC');
         $row = $this->db->get('tag')->row();
         $autoid = $row->id + 1;
-        $this->db->query("CREATE TEMPORARY TABLE tmp SELECT * FROM #__tag WHERE id = ". $id .";");
-        $this->db->query("UPDATE tmp SET id = ". $autoid ." WHERE id = ". $id .";");
-        $this->db->query("INSERT INTO #__tag SELECT tmp.* FROM tmp WHERE id = ". $autoid .";");
+        $this->db->query("CREATE TEMPORARY TABLE tmp SELECT * FROM #__tag WHERE id = " . $id . ";");
+        $this->db->query("UPDATE tmp SET id = " . $autoid . " WHERE id = " . $id . ";");
+        $this->db->query("INSERT INTO #__tag SELECT tmp.* FROM tmp WHERE id = " . $autoid . ";");
         $row = $this->item($autoid, 'id');
-        $params['alias'] = $row->alias .'-'. $autoid;
+        $params['alias'] = $row->alias . '-' . $autoid;
         $this->db->update('tag', $params, array('id' => $autoid));
     }
 
     public function update($id = '', $key = '', $val = '')
     {
         $data = array(
-            $key     => $val,
+            $key => $val,
         );
         $this->db->update('tag', $data, array('id' => $id));
     }
-
 }

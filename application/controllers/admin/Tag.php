@@ -11,35 +11,29 @@ class Tag extends CI_Controller
         }
 
         $post = $this->input->post();
-
-        if ($post){
+        if ($post) {
             foreach ($post['id'] as $id) {
+
                 $row = $this->tag->item($id);
                 $this->tag->delete($id);
-
             }
 
             redirect('admin/tag/index/');
-
         }
 
         $uid = $admin['gid'] > 3 ? '' : $admin['id'];
         $limit = 50;
-
         $view['s'] = $s = $this->input->get('s');
-        $view['cid'] = $cid = $this->input->get('cid');
-        $view['rows'] = $this->tag->items($offset, $limit, $s, $cid /*$date_from, $date_to*/);
-        $view['total'] = $total = $this->tag->total($s, $cid/*$date_from, $date_to*/);
+        $view['rows'] = $this->tag->items($offset, $limit, $s);
+        $view['total'] = $total = $this->tag->total($s);
         $view['admin'] = $admin;
         $view['islang'] = 1;
         $view['modlang'] = array('category', 'tags');
-
         $this->pagination->initialize(array(
             'base_url' => site_url('admin/tag/index/'),
             'total_rows' => $total,
             'per_page' => $limit,
         ));
-
         $view['pagination'] = $this->pagination->create_links();
         $this->load->view('admin/header');
         $this->load->view('admin/tag/tag_list', $view);
@@ -54,6 +48,7 @@ class Tag extends CI_Controller
             } else {
                 $this->mp_cache->delete_group('cache.tag_');
                 $this->tag->save($post, $id);
+
                 redirect('admin/tag/index/');
             }
         }
@@ -69,6 +64,7 @@ class Tag extends CI_Controller
             $row = $this->tag->item($id);
 
             $this->tag->delete($id);
+
             redirect('admin/tag/index/');
         }
     }
@@ -78,6 +74,7 @@ class Tag extends CI_Controller
         if ($id) {
             $this->tag->copy($id);
         }
+
         redirect('admin/tag/index/');
     }
 }

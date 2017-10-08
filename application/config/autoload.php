@@ -132,5 +132,6 @@ $autoload['model'] = array(
     'node_model'                => 'node',
     'newss_model'               => 'newss',
     'category_model'            => 'category',
+    'tag_model'                 => 'tag',
     'user_group_model'          => 'user_group',
 );
